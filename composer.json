@@ -1,5 +1,5 @@
 {
-    "name": "liliumdev/icalendar",
+    "name": "arunagirinathar/icalendar",
     "description": "A Composer package for creating icalendar files (ZContent/icalendar)",
     "license": "GPL-3.0",
     "keywords": ["icalendar", "liliumdev"],
