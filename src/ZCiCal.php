@@ -387,7 +387,7 @@ function toUnixDateTime($datetime){
     $hour = 0;
     $minute = 0;
     $second = 0;
-    if(strlen($datetime) > 8 && $datetime{8} == "T") {
+    if(strlen($datetime) > 8 && $datetime[8] == "T") {
         $hour = substr($datetime,9,2);
         $minute = substr($datetime,11,2);
         $second = substr($datetime,13,2);
